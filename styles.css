@@ -1,0 +1,31 @@
+body{
+  background-color: green;
+}
+table{
+  background-color: hsla(230, 67%, 50%,0.5);
+  color: hsl(289, 90%, 70%);
+  word-spacing: 0.3em;
+  float: both;
+  margin-top: 250px;
+  font-family: "Lucida Console";
+  text-align: center;
+  border: 4px dotted blue;
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
+  letter-spacing: 0.1em;
+}
+
+.fruitName, .fruitHeader, .benefitsHeader, .usesHeader{
+  font-weight: bold;
+  text-align: justify;
+  color: hsl(270, 60%, 60%);
+  font-family: monospace;
+}
+th {
+  height: 50px; 
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 14px;
+}
